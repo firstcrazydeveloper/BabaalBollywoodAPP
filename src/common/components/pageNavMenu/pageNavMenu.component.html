@@ -1,0 +1,3 @@
+﻿<ul id="nav">
+    <li *ngFor="let menu of pageNavMenus;" [ngClass]="menu.CSS" (click)="currentItem(menu.Text)"><a [routerLink]="menu.URL" style="text-decoration:none;">{{menu.Text}}</a> </li>    
+</ul>

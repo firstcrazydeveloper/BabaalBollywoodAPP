@@ -1,0 +1,58 @@
+﻿<div style="margin: auto; max-width: 1000px; margin-top:50px">
+    <data-table id="slide-grid"
+                headerTitle="Box Office"
+                [items]="boxOfficeCollection"
+                [itemCount]="boxofficeCount"
+                (reload)="reloadBoxOffice($event)"
+                [limit]="8"
+                [sortBy]="'rating'"
+                [sortAsc]="false"
+                [selectColumn]="true"
+                [multiSelect]="false"
+                [substituteRows]="false"
+                [expandableRows]="true"
+                [translations]="translations"
+                [indexColumnHeader]="'#'"
+                [selectOnRowClick]="true">
+        <ng-template #dataTableExpand let-item="item">
+            <div [textContent]="item.GrossIncome" style="padding: 5px; color: gray"></div>
+        </ng-template>
+        <data-table-column [property]="'Movie'"
+                           [header]="'Movie'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column [property]="'CategoryName'"
+                           [header]="'CategoryName'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column [property]="'GrossIncome'"
+                           [header]="'GrossIncome'"
+                           [sortable]="true"
+                           [cellColors]="cellColor">
+        </data-table-column>
+        <data-table-column [property]="'Sequence'"
+                           [header]="'Sequence'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column header="Actions">
+            <template #dataTableHeader let-item="item">
+                <i>Actions</i>
+            </template>
+            <template #dataTableCell let-item="item">
+                <button (click)="OnEdit(item)" class="btn btn-sm btn-default">Edit</button>
+                <button (click)="OnDelete(item)" class="btn btn-sm btn-default">Delete</button>
+            </template>
+        </data-table-column>
+    </data-table>
+    <div style="margin-top: 10px">
+        <b>Selected:</b>
+        <span *ngIf="boxOfficeTable.selectedRow == null"><i>No item selected</i></span>
+        <span [textContent]="boxOfficeTable.selectedRow && boxOfficeTable.selectedRow.item.Movie"></span>
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <span (click)="onSelect(boxOfficeTable.selectedRow.item)" style="text-decoration:underline;color:cadetblue;cursor: pointer;" *ngIf="boxOfficeTable.selectedRow != null">Edit {{boxOfficeTable.selectedRow && boxOfficeTable.selectedRow.item.Movie}}</span>
+        </div>
+    </div>
+</div>

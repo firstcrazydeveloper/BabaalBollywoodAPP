@@ -1,0 +1,47 @@
+﻿<div class="page">
+    <div class="breadcrumbs">
+        <a href="/home">Home</a>
+        <span>Current Box Office Collections</span>
+    </div>
+    <div class="row boxoffice">
+        <div class="col-lg-12 menu">
+            <div class="submenucontainer">
+                <page-nav-menu [pageNavMenus]="boxOfficeMenus" [activeMenu]="activeMenu" [parentMenu]="'boxoffice'"></page-nav-menu>
+            </div>
+            <div class="contentView">
+                <view-type></view-type>
+            </div>
+            <!--<div>
+                <div class="filters" style="float:left;">
+                    <select name="#" id="#">
+                        <option value="#">2012</option>
+                        <option value="#">2013</option>
+                        <option value="#">2014</option>
+                        <option value="#">2015</option>
+                        <option value="#">2016</option>
+                        <option value="#">2017</option>
+                    </select>
+                </div>
+            </div>-->
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="wrapper">
+                <div class="box" *ngFor="let boxOffice of boxOfficeCollection;">
+                    <figure itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+                        <img [src]="boxOffice.ImageUrl" />
+                    </figure>
+                    <h2 class="team-name">{{boxOffice.Movie}}</h2>
+                    <small class="team-title">{{boxOffice.GrossIncome}}</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

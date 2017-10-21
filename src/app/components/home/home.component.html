@@ -1,0 +1,31 @@
+﻿
+<div class="row">
+    <div class="col-md-9">
+        <!--<div class="slider">
+            <ul class="slides">
+                <li><a href="#"><img src="src/images/slide-1.jpg" alt="Slide 1"></a></li>
+                <li><a href="#"><img src="src/images/slide-2.jpg" alt="Slide 2"></a></li>
+                <li><a href="#"><img src="src/images/slide-3.jpg" alt="Slide 3"></a></li>
+            </ul>
+        </div>-->
+        <carousel-render [slides]="slides"></carousel-render>
+    </div>
+    <div class="col-md-3">
+        <div class="row">
+            <div class="col-sm-6 col-md-12">
+                <div class="latest-movie" style="height:220px!important;">
+                    <a href="#"><img src="http://t1.gstatic.com/images?q=tbn:ANd9GcT6SDaxZJEgyBhxkA3Py12CAVQBhABucp4aFYv-tjfjv3OU3_7U" alt="Movie 1"></a>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-12">
+                <div class="latest-movie" style="height:220px!important;">
+                    <a href="#"><img src="https://cdn.pinkvilla.com/files/styles/contentpreview/public/Jab-Harry-Met-Sejal-new-poster.JPG?itok=b8fB_fFZ" alt="Movie 2"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- .row -->
+<top-movies [topmovies]="topmovies"></top-movies>
+<div *ngIf="tiles">
+    <tiles-list [tiles]="tiles"></tiles-list>
+</div>

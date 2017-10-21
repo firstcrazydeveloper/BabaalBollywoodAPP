@@ -1,0 +1,1372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Abhishek\Desktop\Publish\NewBabaalbollywood</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AngularNg2Tutorial.dll">
+      <publishTime>06/24/2017 21:41:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="cd_icon.ico">
+      <publishTime>05/14/2017 20:43:34</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>05/14/2017 20:43:34</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>06/24/2017 20:04:41</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>06/18/2017 17:42:47</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/21/2017 23:21:15</publishTime>
+    </File>
+    <File Include="src/admin/auth/auth.guard.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/auth/auth.guard.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/auth/auth.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/auth/auth.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/auth/candeactivateguard.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/auth/candeactivateguard.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/auth/movies.guard.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/auth/movies.guard.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.component.html">
+      <publishTime>06/11/2017 13:16:08</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.component.less">
+      <publishTime>06/10/2017 18:19:24</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.model.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.model.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.service.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/boxOffice.service.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/updateBoxOffice.component.html">
+      <publishTime>06/11/2017 13:31:57</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/updateBoxOffice.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/boxOffice/updateBoxOffice.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.component.html">
+      <publishTime>06/18/2017 19:52:36</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.model.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.model.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.service.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposter.service.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposterlist.component.html">
+      <publishTime>06/18/2017 19:48:31</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposterlist.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/firstlookposter/firstlookposterlist.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.component.html">
+      <publishTime>06/18/2017 20:00:06</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.dashboard.component.html">
+      <publishTime>05/27/2017 18:48:30</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.dashboard.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.dashboard.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.routing.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/home/admin.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/login/login.component.html">
+      <publishTime>05/28/2017 13:00:52</publishTime>
+    </File>
+    <File Include="src/admin/components/login/login.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/login/login.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/login/login.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/login/login.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/login/login.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/login/login.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movie.component.html">
+      <publishTime>06/18/2017 18:37:09</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movie.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movie.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movie.model.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movie.model.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movies.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movies.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movies.service.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movies.service.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movieslist.component.html">
+      <publishTime>06/18/2017 13:59:40</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movieslist.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/movieslist/movieslist.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/adminSlide.component.html">
+      <publishTime>05/27/2017 16:46:05</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/adminSlide.component.js">
+      <publishTime>05/27/2017 16:50:10</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/adminSlide.component.js.map">
+      <publishTime>05/27/2017 16:50:10</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/adminSlide.component.less">
+      <publishTime>05/27/2017 16:04:31</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slide.component.css">
+      <publishTime>05/28/2017 16:46:16</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slide.component.html">
+      <publishTime>05/27/2017 16:46:05</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slide.component.less">
+      <publishTime>05/27/2017 16:04:31</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slide.component.min.css">
+      <publishTime>05/28/2017 16:46:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slide.details.component.html">
+      <publishTime>05/27/2017 17:38:43</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slide.details.component.js">
+      <publishTime>05/28/2017 15:27:58</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slide.details.component.js.map">
+      <publishTime>05/28/2017 15:27:58</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slideDetails.component.html">
+      <publishTime>05/28/2017 15:34:12</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slideDetails.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slideDetails.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.routing.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.service.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/slides/slides.service.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.component.html">
+      <publishTime>06/11/2017 21:49:11</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.model.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.model.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.module.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.module.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/tiles.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/updateTiles.component.html">
+      <publishTime>06/11/2017 21:58:53</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/updateTiles.component.js">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/admin/components/tiles/updateTiles.component.js.map">
+      <publishTime>06/24/2017 21:41:17</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.component.html">
+      <publishTime>05/27/2017 14:01:26</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.component.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.component.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.component.spec.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.component.spec.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/app.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/selective-preloading-strategy.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/bootstrap/selective-preloading-strategy.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.component.css">
+      <publishTime>05/29/2017 11:35:24</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.component.html">
+      <publishTime>05/29/2017 10:52:41</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.component.less">
+      <publishTime>05/29/2017 11:35:23</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.component.min.css">
+      <publishTime>05/29/2017 11:35:24</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/about.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/Abhishek.jpg">
+      <publishTime>05/29/2017 10:46:01</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/Deepak.jpg">
+      <publishTime>05/29/2017 10:52:21</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/figure%402x.jpg">
+      <publishTime>05/29/2017 10:14:01</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/figure.jpg">
+      <publishTime>05/29/2017 10:14:01</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-1%402x.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-1.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-2%402x.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-2.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-3%402x.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-3.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-4%402x.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/about/images/person-4.jpg">
+      <publishTime>05/29/2017 10:14:55</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.component.css">
+      <publishTime>06/02/2017 20:25:52</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.component.html">
+      <publishTime>06/03/2017 11:02:24</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxOffice.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxOffice.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.component.less">
+      <publishTime>06/02/2017 20:25:51</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.component.min.css">
+      <publishTime>06/02/2017 20:25:52</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.model.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.model.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxoffice.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxOffice.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxOffice.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxOffice.service.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/boxoffice/boxOffice.service.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/carousel/carousel.component.html">
+      <publishTime>06/17/2017 09:43:42</publishTime>
+    </File>
+    <File Include="src/app/components/carousel/carousel.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/carousel/carousel.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/carousel/carousel.render.html">
+      <publishTime>05/21/2017 11:06:20</publishTime>
+    </File>
+    <File Include="src/app/components/carousel/carousel.render.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/carousel/carousel.render.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.component.html">
+      <publishTime>05/28/2017 13:27:20</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/celebrities/celebrities.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/datatabledemo/data-table-demo3-data.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/datatabledemo/data-table-demo3-data.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/datatabledemo/data-table-demo3.html">
+      <publishTime>05/27/2017 15:25:12</publishTime>
+    </File>
+    <File Include="src/app/components/datatabledemo/data-table-demo3.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/datatabledemo/data-table-demo3.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/datatabledemo/data-table-demo3.less">
+      <publishTime>05/27/2017 15:09:48</publishTime>
+    </File>
+    <File Include="src/app/components/home/home.component.html">
+      <publishTime>06/24/2017 12:28:26</publishTime>
+    </File>
+    <File Include="src/app/components/home/home.component.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/home/home.component.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/home/home.service.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/home/home.service.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/home/slide.module.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/home/slide.module.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/landing/landing.component.html">
+      <publishTime>06/03/2017 11:15:37</publishTime>
+    </File>
+    <File Include="src/app/components/landing/landing.component.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/landing/landing.component.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.component.css">
+      <publishTime>06/17/2017 11:53:40</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.component.html">
+      <publishTime>06/18/2017 21:14:25</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.component.less">
+      <publishTime>06/17/2017 11:53:28</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.component.min.css">
+      <publishTime>06/17/2017 11:53:43</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.model.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/firstlookposters/firstlookposters.model.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/background%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/background.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/figure%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/figure.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-1%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-1.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-2%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-2.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-3%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-3.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-4%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/person-4.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/single-image%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/single-image.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/slide-1%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/slide-1.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/slide-2%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/slide-2.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/slide-3%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/slide-3.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-1%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-1.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-2%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-2.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-3%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-3.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-4%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-4.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-5%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-5.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-6%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-6.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-7%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-7.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-8%402x.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/images/thumb-8.jpg">
+      <publishTime>05/29/2017 09:49:18</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movie.model.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movie.model.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.component.css">
+      <publishTime>06/04/2017 00:00:36</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.component.html">
+      <publishTime>06/18/2017 13:22:08</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.component.min.css">
+      <publishTime>06/04/2017 00:00:36</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movies.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/moviesDashboard.component.html">
+      <publishTime>06/17/2017 17:45:05</publishTime>
+    </File>
+    <File Include="src/app/components/movies/moviesDashboard.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/moviesDashboard.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movietrailers/movietrailers.component.html">
+      <publishTime>06/17/2017 13:02:05</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movietrailers/movietrailers.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/movies/movietrailers/movietrailers.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.component.html">
+      <publishTime>06/17/2017 10:37:37</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/musics/musics.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.component.css">
+      <publishTime>05/28/2017 18:18:02</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.component.html">
+      <publishTime>05/28/2017 18:35:06</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.component.js">
+      <publishTime>05/31/2017 22:59:56</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.component.js.map">
+      <publishTime>05/31/2017 22:59:56</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.component.less">
+      <publishTime>05/20/2017 10:03:51</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.component.min.css">
+      <publishTime>05/28/2017 18:18:03</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.service.js">
+      <publishTime>05/31/2017 22:59:56</publishTime>
+    </File>
+    <File Include="src/app/components/navigation/navigation.service.js.map">
+      <publishTime>05/31/2017 22:59:56</publishTime>
+    </File>
+    <File Include="src/app/components/slide/slide.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/slide/slide.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.component.html">
+      <publishTime>05/28/2017 13:27:31</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/songs/songs.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.component.html">
+      <publishTime>05/28/2017 13:26:51</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.routing.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.routing.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.service.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/starpower/starpower.service.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/tiles/tiles.component.css">
+      <publishTime>06/11/2017 20:35:16</publishTime>
+    </File>
+    <File Include="src/app/components/tiles/tiles.component.html">
+      <publishTime>06/18/2017 23:26:45</publishTime>
+    </File>
+    <File Include="src/app/components/tiles/tiles.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/tiles/tiles.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/app/components/tiles/tiles.component.less">
+      <publishTime>06/11/2017 20:25:12</publishTime>
+    </File>
+    <File Include="src/app/components/tiles/tiles.component.min.css">
+      <publishTime>06/11/2017 20:35:18</publishTime>
+    </File>
+    <File Include="src/app/components/topmovies/topMovies.component.html">
+      <publishTime>06/24/2017 21:39:14</publishTime>
+    </File>
+    <File Include="src/app/components/topmovies/topmovies.component.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/topmovies/topmovies.component.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/topmovies/topMovies.service.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/components/topmovies/topMovies.service.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/routes/routes.config.js">
+      <publishTime>05/27/2017 16:50:10</publishTime>
+    </File>
+    <File Include="src/app/routes/routes.config.js.map">
+      <publishTime>05/27/2017 16:50:10</publishTime>
+    </File>
+    <File Include="src/app/routes/selective-preloading-strategy.js">
+      <publishTime>05/27/2017 16:50:10</publishTime>
+    </File>
+    <File Include="src/app/routes/selective-preloading-strategy.js.map">
+      <publishTime>05/27/2017 16:50:10</publishTime>
+    </File>
+    <File Include="src/app/system/appSettings.setting.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/app/system/appSettings.setting.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/common/animations.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/animations.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.component.css">
+      <publishTime>05/28/2017 18:18:02</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.component.html">
+      <publishTime>06/03/2017 22:26:33</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.component.less">
+      <publishTime>05/20/2017 10:03:51</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.component.min.css">
+      <publishTime>05/28/2017 18:18:03</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.service.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/common/components/navigation/navigation.service.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/common/components/pageNavMenu/pageNavMenu.component.css">
+      <publishTime>06/18/2017 23:05:46</publishTime>
+    </File>
+    <File Include="src/common/components/pageNavMenu/pageNavMenu.component.html">
+      <publishTime>06/18/2017 22:29:51</publishTime>
+    </File>
+    <File Include="src/common/components/pageNavMenu/pageNavMenu.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/pageNavMenu/pageNavMenu.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/pageNavMenu/pageNavMenu.component.less">
+      <publishTime>06/18/2017 23:05:46</publishTime>
+    </File>
+    <File Include="src/common/components/pageNavMenu/pageNavMenu.component.min.css">
+      <publishTime>06/18/2017 23:05:46</publishTime>
+    </File>
+    <File Include="src/common/components/pagenotfound/pagenotfound.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/pagenotfound/pagenotfound.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/slick/slick.component.html">
+      <publishTime>06/17/2017 10:38:50</publishTime>
+    </File>
+    <File Include="src/common/components/slick/slick.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/slick/slick.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/slick/slick.component.less">
+      <publishTime>06/17/2017 10:07:46</publishTime>
+    </File>
+    <File Include="src/common/components/slick/slick.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/slick/slick.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/viewType/displayType.component.css">
+      <publishTime>06/02/2017 20:14:08</publishTime>
+    </File>
+    <File Include="src/common/components/viewType/displayType.component.min.css">
+      <publishTime>06/02/2017 20:14:19</publishTime>
+    </File>
+    <File Include="src/common/components/viewType/viewType.component.html">
+      <publishTime>06/02/2017 19:52:20</publishTime>
+    </File>
+    <File Include="src/common/components/viewType/viewType.component.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/viewType/viewType.component.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/components/viewType/viewType.component.less">
+      <publishTime>06/02/2017 19:53:31</publishTime>
+    </File>
+    <File Include="src/common/pipe/Keyobject.pipe.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/pipe/Keyobject.pipe.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/shared.module.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/shared.module.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/common/shared/models/menu.model.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/common/shared/models/menu.model.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/environments/environment.js">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/environments/environment.js.map">
+      <publishTime>06/24/2017 21:41:15</publishTime>
+    </File>
+    <File Include="src/fonts/font-awesome.min.css">
+      <publishTime>05/14/2017 11:39:15</publishTime>
+    </File>
+    <File Include="src/fonts/fontawesome-webfont.eot">
+      <publishTime>05/14/2017 11:39:15</publishTime>
+    </File>
+    <File Include="src/fonts/fontawesome-webfont.svg">
+      <publishTime>05/14/2017 11:39:15</publishTime>
+    </File>
+    <File Include="src/fonts/fontawesome-webfont.ttf">
+      <publishTime>05/14/2017 11:39:15</publishTime>
+    </File>
+    <File Include="src/fonts/fontawesome-webfont.woff">
+      <publishTime>05/14/2017 11:39:15</publishTime>
+    </File>
+    <File Include="src/fonts/FontAwesome.otf">
+      <publishTime>05/14/2017 11:39:15</publishTime>
+    </File>
+    <File Include="src/images/arrow%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/arrow-gray%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/arrow-gray.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/arrow.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/background%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/background.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/bgImage.jpg">
+      <publishTime>05/30/2017 22:50:34</publishTime>
+    </File>
+    <File Include="src/images/figure%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/figure.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-envelope%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-envelope.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-globe%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-globe.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-map%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-map.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-message%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-message.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-pencil%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-pencil.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-phone%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-phone.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-user%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/icon-contact-user.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/logo%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/logo.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/person-1%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/person-1.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/person-2%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/person-2.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/person-3%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/person-3.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/person-4%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/person-4.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/select%402x.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/select.png">
+      <publishTime>05/14/2017 11:39:46</publishTime>
+    </File>
+    <File Include="src/images/single-image%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/single-image.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/slide-1%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/slide-1.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/slide-2%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/slide-2.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/slide-3%402x.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/slide-3.jpg">
+      <publishTime>05/14/2017 11:48:49</publishTime>
+    </File>
+    <File Include="src/images/thumb-1%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-1.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-2%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-2.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-3%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-3.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-4%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-4.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-5%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-5.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-6%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-6.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-7%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-7.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-8%402x.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/images/thumb-8.jpg">
+      <publishTime>05/14/2017 11:48:50</publishTime>
+    </File>
+    <File Include="src/js/app.js">
+      <publishTime>05/14/2017 11:37:44</publishTime>
+    </File>
+    <File Include="src/js/ie-support/html5.js">
+      <publishTime>05/14/2017 11:37:18</publishTime>
+    </File>
+    <File Include="src/js/ie-support/pie.htc">
+      <publishTime>05/14/2017 11:37:18</publishTime>
+    </File>
+    <File Include="src/js/ie-support/respond.js">
+      <publishTime>05/14/2017 11:37:18</publishTime>
+    </File>
+    <File Include="src/js/jquery-1.11.1.min.js">
+      <publishTime>05/14/2017 11:37:44</publishTime>
+    </File>
+    <File Include="src/js/jquery-1.11.1.min.map">
+      <publishTime>05/14/2017 11:37:44</publishTime>
+    </File>
+    <File Include="src/js/jquery.ticker.js">
+      <publishTime>06/24/2017 19:53:51</publishTime>
+    </File>
+    <File Include="src/js/plugins.js">
+      <publishTime>05/14/2017 11:37:44</publishTime>
+    </File>
+    <File Include="src/js/shim.min.js">
+      <publishTime>04/09/2017 14:37:19</publishTime>
+    </File>
+    <File Include="src/js/system.src.js">
+      <publishTime>04/09/2017 14:37:13</publishTime>
+    </File>
+    <File Include="src/js/zone.js">
+      <publishTime>04/09/2017 14:37:17</publishTime>
+    </File>
+    <File Include="src/main.js">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/main.js.map">
+      <publishTime>06/24/2017 21:41:16</publishTime>
+    </File>
+    <File Include="src/resources/boxOfficeCollection.json">
+      <publishTime>05/30/2017 22:44:54</publishTime>
+    </File>
+    <File Include="src/resources/homePageSlide.json">
+      <publishTime>05/20/2017 09:57:48</publishTime>
+    </File>
+    <File Include="src/resources/movies.json">
+      <publishTime>06/03/2017 15:55:40</publishTime>
+    </File>
+    <File Include="src/resources/navigation.json">
+      <publishTime>05/20/2017 10:49:57</publishTime>
+    </File>
+    <File Include="src/resources/topmovies.json">
+      <publishTime>06/24/2017 11:42:22</publishTime>
+    </File>
+    <File Include="src/sass/layout/_content.scss">
+      <publishTime>11/25/2014 13:34:50</publishTime>
+    </File>
+    <File Include="src/sass/layout/_footer.scss">
+      <publishTime>11/25/2014 13:30:22</publishTime>
+    </File>
+    <File Include="src/sass/layout/_header.scss">
+      <publishTime>11/29/2014 10:09:30</publishTime>
+    </File>
+    <File Include="src/sass/libs/bootstrap-grid/_grid.scss">
+      <publishTime>08/09/2014 08:16:56</publishTime>
+    </File>
+    <File Include="src/sass/libs/bootstrap-grid/_mixins.scss">
+      <publishTime>08/21/2014 17:50:56</publishTime>
+    </File>
+    <File Include="src/sass/libs/bootstrap-grid/_settings.scss">
+      <publishTime>11/03/2014 15:42:32</publishTime>
+    </File>
+    <File Include="src/sass/libs/_components.scss">
+      <publishTime>01/20/2015 14:49:32</publishTime>
+    </File>
+    <File Include="src/sass/libs/_global.scss">
+      <publishTime>11/25/2014 13:36:32</publishTime>
+    </File>
+    <File Include="src/sass/libs/_mixins.scss">
+      <publishTime>11/25/2014 13:39:02</publishTime>
+    </File>
+    <File Include="src/sass/libs/_normalize.scss">
+      <publishTime>10/09/2014 18:34:22</publishTime>
+    </File>
+    <File Include="src/sass/libs/_settings.scss">
+      <publishTime>11/05/2014 16:01:46</publishTime>
+    </File>
+    <File Include="src/sass/style.scss">
+      <publishTime>11/14/2014 01:53:32</publishTime>
+    </File>
+    <File Include="src/styles/style.css">
+      <publishTime>06/24/2017 12:37:20</publishTime>
+    </File>
+    <File Include="src/styles/ticker-style.css">
+      <publishTime>06/24/2017 19:53:21</publishTime>
+    </File>
+    <File Include="src/systemjs-angular-loader.js">
+      <publishTime>04/09/2017 14:38:28</publishTime>
+    </File>
+    <File Include="src/systemjs.config.extras.js">
+      <publishTime>04/09/2017 14:38:28</publishTime>
+    </File>
+    <File Include="src/systemjs.config.js">
+      <publishTime>06/18/2017 17:42:47</publishTime>
+    </File>
+    <File Include="src/tsconfig.json">
+      <publishTime>06/18/2017 14:51:05</publishTime>
+    </File>
+    <File Include="tslint.json">
+      <publishTime>04/09/2017 14:34:53</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/27/2017 16:50:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

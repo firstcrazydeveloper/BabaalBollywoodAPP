@@ -1,0 +1,63 @@
+﻿<div style="margin: auto; max-width: 1000px; margin-top:50px">
+    <data-table id="slide-grid"
+                headerTitle="Tiles Details"
+                [items]="tilesCollection"
+                [itemCount]="tilesCount"
+                (reload)="reloadTiles($event)"
+                [limit]="8"
+                [sortBy]="'rating'"
+                [sortAsc]="false"
+                [selectColumn]="true"
+                [multiSelect]="false"
+                [substituteRows]="false"
+                [expandableRows]="true"
+                [translations]="translations"
+                [indexColumnHeader]="'#'"
+                [selectOnRowClick]="true">
+        <ng-template #dataTableExpand let-item="item">
+            <div [textContent]="item.GrossIncome" style="padding: 5px; color: gray"></div>
+        </ng-template>
+        <data-table-column [property]="'Title'"
+                           [header]="'Title'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column [property]="'Type'"
+                           [header]="'Type'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column [property]="'Row'"
+                           [header]="'Row'"
+                           [sortable]="true"
+                           [cellColors]="cellColor">
+        </data-table-column>
+        <data-table-column [property]="'Col'"
+                           [header]="'Col'"
+                           [sortable]="true"
+                           [cellColors]="cellColor">
+        </data-table-column>
+        <data-table-column [property]="'Sequence'"
+                           [header]="'Sequence'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column header="Actions">
+            <template #dataTableHeader let-item="item">
+                <i>Actions</i>
+            </template>
+            <template #dataTableCell let-item="item">
+                <button (click)="OnEdit(item)" class="btn btn-sm btn-default">Edit</button>
+                <button (click)="OnDelete(item)" class="btn btn-sm btn-default">Delete</button>
+            </template>
+        </data-table-column>
+    </data-table>
+    <div style="margin-top: 10px">
+        <b>Selected:</b>
+        <span *ngIf="tilesTable.selectedRow == null"><i>No item selected</i></span>
+        <span [textContent]="tilesTable.selectedRow && tilesTable.selectedRow.item.Title"></span>
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <span (click)="onSelect(tilesTable.selectedRow.item)" style="text-decoration:underline;color:cadetblue;cursor: pointer;" *ngIf="tilesTable.selectedRow != null">Edit {{tilesTable.selectedRow && tilesTable.selectedRow.item.Title}}</span>
+        </div>
+    </div>
+</div>

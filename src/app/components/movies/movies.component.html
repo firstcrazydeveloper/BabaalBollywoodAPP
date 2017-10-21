@@ -1,0 +1,8 @@
+﻿<div class="movie-list">
+    <div class="movie" *ngFor="let movie of movies;">
+        <figure class="movie-poster"><img [src]="movie.ImageURL" alt="#"></figure>
+        <div class="movie-title"><a href="single.html">{{movie.MovieName}}</a></div>
+        <p><strong>Release Date: {{ movie.ReleaseDate | date  }}</strong></p>
+        <p><strong>Category: {{movie.Genre}}</strong></p>
+    </div>
+</div>

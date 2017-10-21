@@ -1,0 +1,57 @@
+﻿<div style="margin: auto; max-width: 1000px; margin-top:50px">
+    <data-table id="slide-grid"
+                headerTitle="Home Page Slide Images"
+                [items]="slides"
+                [itemCount]="slideCount"
+                (reload)="reloadSlides($event)"
+                [limit]="8"
+                [sortBy]="'rating'"
+                [sortAsc]="false"
+                [selectColumn]="true"
+                [multiSelect]="false"
+                [substituteRows]="false"
+                [expandableRows]="true"
+                [translations]="translations"
+                [indexColumnHeader]="'#'"
+                [selectOnRowClick]="true">
+        <ng-template #dataTableExpand let-item="item">
+            <div [textContent]="item.Details" style="padding: 5px; color: gray"></div>
+        </ng-template>
+        <data-table-column [property]="'Caption'"
+                           [header]="'Caption'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column [property]="'Type'"
+                           [header]="'Type'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column [property]="'Details'"
+                           [header]="'Details'"
+                           [sortable]="true"
+                           [cellColors]="cellColor">
+        </data-table-column>
+        <data-table-column [property]="'Sequence'"
+                           [header]="'Sequence'"
+                           [sortable]="true">
+        </data-table-column>
+        <data-table-column header="Actions">
+            <template #dataTableHeader let-item="item">
+                <i>Actions</i>
+            </template>
+            <template #dataTableCell let-item="item">
+                <button (click)="onSelect(item)" class="btn btn-sm btn-default">Edit</button>
+            </template>
+        </data-table-column>
+    </data-table>
+    <div style="margin-top: 10px">
+        <b>Selected:</b>
+        <span *ngIf="slideTable.selectedRow == null"><i>No item selected</i></span>
+        <span [textContent]="slideTable.selectedRow && slideTable.selectedRow.item.Caption"></span>
+       
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <span (click)="onSelect(slideTable.selectedRow.item)" style="text-decoration:underline;color:cadetblue;cursor: pointer;" *ngIf="slideTable.selectedRow != null">Edit {{slideTable.selectedRow && slideTable.selectedRow.item.Caption}}</span>
+        </div>
+    </div>
+</div>

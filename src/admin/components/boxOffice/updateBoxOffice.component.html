@@ -1,0 +1,169 @@
+﻿
+<div *ngIf="boxOffice">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="well form-horizontal" id="contact_form">
+                <div>
+                    <span>Box Office : {{boxOffice.Movie}}</span>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Movie</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Movie" [(ngModel)]="boxOffice.Movie" placeholder="Movie Name" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">ImageUrl</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="ImageUrl" placeholder="Image Url" [(ngModel)]="boxOffice.ImageUrl" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Gross Income</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="GrossIncome" placeholder="Gross Income" [(ngModel)]="boxOffice.GrossIncome" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">First Week Income</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="FirstWeekIncome" placeholder="First Week Income" [(ngModel)]="boxOffice.FirstWeekIncome" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Second Week Income</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="SecondWeekIncome" placeholder="Second Week Income" [(ngModel)]="boxOffice.SecondWeekIncome" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Third Week Income</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="ThirdWeekIncome" placeholder="Third Week Income" class="form-control" [(ngModel)]="boxOffice.ThirdWeekIncome" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Select Basic -->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Sequence</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Sequence" placeholder="Sequence" class="form-control" [(ngModel)]="boxOffice.Sequence" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Category Id</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="CategoryId" placeholder="Category Id" [(ngModel)]="boxOffice.CategoryId" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Category Name</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="CategoryName" placeholder="Category Name" [(ngModel)]="boxOffice.CategoryName" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Is Active</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"></span>
+                            <input name="IsActive" placeholder="Is Active" [(ngModel)]="boxOffice.IsActive" class="form-control" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- radio checks -->
+                <!-- Text area -->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Project Description</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-warning" (click)="AddUpdateBoxOffice()">{{mainButtonTitle}} <span class="glyphicon glyphicon-upload"></span></button>
+                    </div>
+
+
+                </div>
+                <!-- Success message -->
+                <div *ngIf="transactionSucces" class="alert alert-success" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Box Office collection added/ updated successfully.</div>
+                <div *ngIf="transactionFailed" class="alert alert-danger" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-down"></i> Box Office collection not added/ updated successfully.</div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-warning" (click)="clearData()" *ngIf="mainButtonTitle == 'Update'">{{addNewButton}} <span class="glyphicon glyphicon-plus-sign"></span></button>
+                <button type="submit" class="btn btn-warning" (click)="clearData()">{{clearButton}} <span class="glyphicon glyphicon-refresh"></span></button>
+                <button type="submit" class="btn btn-warning" (click)="Cancel()">{{cancelButton}} <span class="glyphicon glyphicon-repeat"></span></button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+

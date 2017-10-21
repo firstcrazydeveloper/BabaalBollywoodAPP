@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C9DDB90-553A-4308-92E1-DDB85F3D38EE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AngularNg2Tutorial</RootNamespace>
+    <AssemblyName>AngularNg2Tutorial</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cd_icon.ico" />
+    <Content Include="favicon.ico" />
+    <Content Include="packages.config" />
+    <Content Include="package.json" />
+    <Content Include="src\admin\components\boxOffice\boxOffice.component.html" />
+    <Content Include="src\admin\components\boxOffice\updateBoxOffice.component.html" />
+    <Content Include="src\admin\components\firstlookposter\firstlookposter.component.html" />
+    <Content Include="src\admin\components\firstlookposter\firstlookposterlist.component.html" />
+    <Content Include="src\admin\components\home\admin.component.html" />
+    <Content Include="src\admin\components\home\admin.dashboard.component.html" />
+    <Content Include="src\admin\components\login\login.component.html" />
+    <Content Include="src\admin\components\movieslist\movie.component.html" />
+    <Content Include="src\admin\components\movieslist\movieslist.component.html" />
+    <Content Include="src\admin\components\slides\slide.component.css">
+      <DependentUpon>slide.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\admin\components\slides\slide.component.html" />
+    <Content Include="src\admin\components\slides\slide.component.min.css">
+      <DependentUpon>slide.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\admin\components\slides\slideDetails.component.html" />
+    <Content Include="src\admin\components\tiles\tiles.component.html" />
+    <Content Include="src\admin\components\tiles\updateTiles.component.html" />
+    <Content Include="src\app\bootstrap\app.component.html" />
+    <Content Include="src\app\components\about\about.component.css">
+      <DependentUpon>about.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\about\about.component.html" />
+    <Content Include="src\app\components\about\about.component.min.css">
+      <DependentUpon>about.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\about\images\Abhishek.jpg" />
+    <Content Include="src\app\components\about\images\Deepak.jpg" />
+    <Content Include="src\app\components\about\images\figure%402x.jpg" />
+    <Content Include="src\app\components\about\images\figure.jpg" />
+    <Content Include="src\app\components\about\images\person-1%402x.jpg" />
+    <Content Include="src\app\components\about\images\person-1.jpg" />
+    <Content Include="src\app\components\about\images\person-2%402x.jpg" />
+    <Content Include="src\app\components\about\images\person-2.jpg" />
+    <Content Include="src\app\components\about\images\person-3%402x.jpg" />
+    <Content Include="src\app\components\about\images\person-3.jpg" />
+    <Content Include="src\app\components\about\images\person-4%402x.jpg" />
+    <Content Include="src\app\components\about\images\person-4.jpg" />
+    <Content Include="src\app\components\boxoffice\boxoffice.component.css">
+      <DependentUpon>boxoffice.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\boxoffice\boxoffice.component.html" />
+    <Content Include="src\app\components\boxoffice\boxoffice.component.min.css">
+      <DependentUpon>boxoffice.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\movies\firstlookposters\firstlookposters.component.css">
+      <DependentUpon>firstlookposters.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\movies\firstlookposters\firstlookposters.component.html" />
+    <Content Include="src\app\components\movies\firstlookposters\firstlookposters.component.min.css">
+      <DependentUpon>firstlookposters.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\movies\images\background%402x.jpg" />
+    <Content Include="src\app\components\movies\images\background.jpg" />
+    <Content Include="src\app\components\movies\images\figure%402x.jpg" />
+    <Content Include="src\app\components\movies\images\figure.jpg" />
+    <Content Include="src\app\components\movies\images\person-1%402x.jpg" />
+    <Content Include="src\app\components\movies\images\person-1.jpg" />
+    <Content Include="src\app\components\movies\images\person-2%402x.jpg" />
+    <Content Include="src\app\components\movies\images\person-2.jpg" />
+    <Content Include="src\app\components\movies\images\person-3%402x.jpg" />
+    <Content Include="src\app\components\movies\images\person-3.jpg" />
+    <Content Include="src\app\components\movies\images\person-4%402x.jpg" />
+    <Content Include="src\app\components\movies\images\person-4.jpg" />
+    <Content Include="src\app\components\movies\images\single-image%402x.jpg" />
+    <Content Include="src\app\components\movies\images\single-image.jpg" />
+    <Content Include="src\app\components\movies\images\slide-1%402x.jpg" />
+    <Content Include="src\app\components\movies\images\slide-1.jpg" />
+    <Content Include="src\app\components\movies\images\slide-2%402x.jpg" />
+    <Content Include="src\app\components\movies\images\slide-2.jpg" />
+    <Content Include="src\app\components\movies\images\slide-3%402x.jpg" />
+    <Content Include="src\app\components\movies\images\slide-3.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-1%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-1.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-2%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-2.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-3%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-3.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-4%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-4.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-5%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-5.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-6%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-6.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-7%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-7.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-8%402x.jpg" />
+    <Content Include="src\app\components\movies\images\thumb-8.jpg" />
+    <Content Include="src\app\components\movies\movies.component.css">
+      <DependentUpon>movies.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\movies\movies.component.min.css">
+      <DependentUpon>movies.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\movies\moviesDashboard.component.html" />
+    <Content Include="src\app\components\movies\movietrailers\movietrailers.component.html" />
+    <Content Include="src\app\components\tiles\tiles.component.css">
+      <DependentUpon>tiles.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\tiles\tiles.component.html" />
+    <Content Include="src\app\components\tiles\tiles.component.min.css">
+      <DependentUpon>tiles.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\topmovies\topMovies.component.css">
+      <DependentUpon>topMovies.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\topmovies\topMovies.component.min.css">
+      <DependentUpon>topMovies.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\common\components\navigation\navigation.component.css">
+      <DependentUpon>navigation.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\common\components\navigation\navigation.component.min.css">
+      <DependentUpon>navigation.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\songs\songs.component.html" />
+    <Content Include="src\app\components\carousel\carousel.component.html" />
+    <Content Include="src\app\components\carousel\carousel.render.html" />
+    <Content Include="src\app\components\celebrities\celebrities.component.html" />
+    <Content Include="src\app\components\datatabledemo\data-table-demo3.html" />
+    <Content Include="src\app\components\home\home.component.html" />
+    <Content Include="src\app\components\landing\landing.component.html" />
+    <Content Include="src\app\components\movies\movies.component.html" />
+    <Content Include="src\app\components\musics\musics.component.html" />
+    <Content Include="src\common\components\navigation\navigation.component.html" />
+    <Content Include="src\app\components\starpower\starpower.component.html" />
+    <Content Include="src\app\components\topmovies\topMovies.component.html" />
+    <Content Include="src\common\components\slick\slick.component.html" />
+    <Content Include="src\common\components\viewType\displayType.component.css">
+      <DependentUpon>viewType.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\common\components\viewType\viewType.component.html" />
+    <Content Include="src\common\components\viewType\displayType.component.min.css">
+      <DependentUpon>displayType.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\common\components\pageNavMenu\pageNavMenu.component.css">
+      <DependentUpon>pageNavMenu.component.less</DependentUpon>
+    </Content>
+    <Content Include="src\common\components\pageNavMenu\pageNavMenu.component.html" />
+    <Content Include="src\common\components\pageNavMenu\pageNavMenu.component.min.css">
+      <DependentUpon>pageNavMenu.component.css</DependentUpon>
+    </Content>
+    <Content Include="src\fonts\font-awesome.min.css" />
+    <Content Include="src\fonts\fontawesome-webfont.svg" />
+    <Content Include="src\images\arrow%402x.png" />
+    <Content Include="src\images\arrow-gray%402x.png" />
+    <Content Include="src\images\arrow-gray.png" />
+    <Content Include="src\images\arrow.png" />
+    <Content Include="src\images\background%402x.jpg" />
+    <Content Include="src\images\background.jpg" />
+    <Content Include="src\images\bgImage.jpg" />
+    <Content Include="src\images\figure%402x.jpg" />
+    <Content Include="src\images\figure.jpg" />
+    <Content Include="src\images\icon-contact-envelope%402x.png" />
+    <Content Include="src\images\icon-contact-envelope.png" />
+    <Content Include="src\images\icon-contact-globe%402x.png" />
+    <Content Include="src\images\icon-contact-globe.png" />
+    <Content Include="src\images\icon-contact-map%402x.png" />
+    <Content Include="src\images\icon-contact-map.png" />
+    <Content Include="src\images\icon-contact-message%402x.png" />
+    <Content Include="src\images\icon-contact-message.png" />
+    <Content Include="src\images\icon-contact-pencil%402x.png" />
+    <Content Include="src\images\icon-contact-pencil.png" />
+    <Content Include="src\images\icon-contact-phone%402x.png" />
+    <Content Include="src\images\icon-contact-phone.png" />
+    <Content Include="src\images\icon-contact-user%402x.png" />
+    <Content Include="src\images\icon-contact-user.png" />
+    <Content Include="src\images\logo%402x.png" />
+    <Content Include="src\images\logo.png" />
+    <Content Include="src\images\person-1%402x.jpg" />
+    <Content Include="src\images\person-1.jpg" />
+    <Content Include="src\images\person-2%402x.jpg" />
+    <Content Include="src\images\person-2.jpg" />
+    <Content Include="src\images\person-3%402x.jpg" />
+    <Content Include="src\images\person-3.jpg" />
+    <Content Include="src\images\person-4%402x.jpg" />
+    <Content Include="src\images\person-4.jpg" />
+    <Content Include="src\images\select%402x.png" />
+    <Content Include="src\images\select.png" />
+    <Content Include="src\images\single-image%402x.jpg" />
+    <Content Include="src\images\single-image.jpg" />
+    <Content Include="src\images\slide-1%402x.jpg" />
+    <Content Include="src\images\slide-1.jpg" />
+    <Content Include="src\images\slide-2%402x.jpg" />
+    <Content Include="src\images\slide-2.jpg" />
+    <Content Include="src\images\slide-3%402x.jpg" />
+    <Content Include="src\images\slide-3.jpg" />
+    <Content Include="src\images\thumb-1%402x.jpg" />
+    <Content Include="src\images\thumb-1.jpg" />
+    <Content Include="src\images\thumb-2%402x.jpg" />
+    <Content Include="src\images\thumb-2.jpg" />
+    <Content Include="src\images\thumb-3%402x.jpg" />
+    <Content Include="src\images\thumb-3.jpg" />
+    <Content Include="src\images\thumb-4%402x.jpg" />
+    <Content Include="src\images\thumb-4.jpg" />
+    <Content Include="src\images\thumb-5%402x.jpg" />
+    <Content Include="src\images\thumb-5.jpg" />
+    <Content Include="src\images\thumb-6%402x.jpg" />
+    <Content Include="src\images\thumb-6.jpg" />
+    <Content Include="src\images\thumb-7%402x.jpg" />
+    <Content Include="src\images\thumb-7.jpg" />
+    <Content Include="src\images\thumb-8%402x.jpg" />
+    <Content Include="src\images\thumb-8.jpg" />
+    <Content Include="src\js\app.js" />
+    <Content Include="src\js\ie-support\html5.js" />
+    <Content Include="src\js\ie-support\pie.htc" />
+    <Content Include="src\js\ie-support\respond.js" />
+    <Content Include="src\js\jquery-1.11.1.min.js" />
+    <Content Include="src\js\jquery.ticker.js" />
+    <Content Include="src\js\plugins.js" />
+    <Content Include="src\js\shim.min.js" />
+    <Content Include="src\js\system.src.js" />
+    <Content Include="src\js\zone.js" />
+    <Content Include="src\styles\style.css" />
+    <Content Include="src\styles\ticker-style.css" />
+    <Content Include="tslint.json" />
+    <Content Include="src\tsconfig.json" />
+    <Content Include="src\js\jquery-1.11.1.min.map" />
+    <Content Include="src\fonts\fontawesome-webfont.eot" />
+    <Content Include="src\fonts\fontawesome-webfont.ttf" />
+    <Content Include="src\fonts\fontawesome-webfont.woff" />
+    <Content Include="src\fonts\FontAwesome.otf" />
+    <Content Include="src\sass\layout\_content.scss" />
+    <Content Include="src\sass\layout\_footer.scss" />
+    <Content Include="src\sass\layout\_header.scss" />
+    <Content Include="src\sass\libs\bootstrap-grid\_grid.scss" />
+    <Content Include="src\sass\libs\bootstrap-grid\_mixins.scss" />
+    <Content Include="src\sass\libs\bootstrap-grid\_settings.scss" />
+    <Content Include="src\sass\libs\_components.scss" />
+    <Content Include="src\sass\libs\_global.scss" />
+    <Content Include="src\sass\libs\_mixins.scss" />
+    <Content Include="src\sass\libs\_normalize.scss" />
+    <Content Include="src\sass\libs\_settings.scss" />
+    <Content Include="src\sass\style.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="Properties\PublishProfiles\New BabaalBollywodd.pubxml" />
+    <Content Include="src\resources\homePageSlide.json" />
+    <Content Include="src\common\components\navigation\navigation.component.less" />
+    <Content Include="src\resources\navigation.json" />
+    <Content Include="src\resources\topmovies.json" />
+    <Content Include="src\app\components\datatabledemo\data-table-demo3.less" />
+    <Content Include="src\admin\components\slides\slide.component.less" />
+    <Content Include="src\app\components\about\about.component.less" />
+    <Content Include="src\app\components\boxoffice\boxoffice.component.less" />
+    <Content Include="src\admin\components\boxOffice\boxOffice.component.less" />
+    <Content Include="src\app\components\movies\firstlookposters\firstlookposters.component.less" />
+    <None Include="src\app\components\movies\movies.component.less" />
+    <Content Include="src\resources\boxOfficeCollection.json" />
+    <Content Include="src\common\components\pageNavMenu\pageNavMenu.component.less" />
+    <Content Include="src\common\components\viewType\viewType.component.less" />
+    <Content Include="src\resources\movies.json" />
+    <Content Include="src\app\components\tiles\tiles.component.less" />
+    <Content Include="src\common\components\slick\slick.component.less" />
+    <Content Include="src\app\components\topmovies\topMovies.component.less" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="src\systemjs-angular-loader.js" />
+    <Content Include="src\systemjs.config.extras.js" />
+    <Content Include="src\systemjs.config.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\app\routes\" />
+    <Folder Include="src\sass\pages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="src\admin\auth\movies.guard.ts" />
+    <TypeScriptCompile Include="src\admin\components\boxOffice\boxOffice.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\boxOffice\boxOffice.model.ts" />
+    <TypeScriptCompile Include="src\admin\components\boxOffice\boxOffice.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\boxOffice\boxOffice.service.ts" />
+    <TypeScriptCompile Include="src\admin\components\boxOffice\updateBoxOffice.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\firstlookposter\firstlookposter.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\firstlookposter\firstlookposter.model.ts" />
+    <TypeScriptCompile Include="src\admin\components\firstlookposter\firstlookposter.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\firstlookposter\firstlookposter.service.ts" />
+    <TypeScriptCompile Include="src\admin\components\firstlookposter\firstlookposterlist.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\home\admin.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\home\admin.routing.module.ts" />
+    <TypeScriptCompile Include="src\admin\auth\auth.guard.service.ts" />
+    <TypeScriptCompile Include="src\admin\auth\auth.service.ts" />
+    <TypeScriptCompile Include="src\admin\auth\candeactivateguard.service.ts" />
+    <TypeScriptCompile Include="src\admin\components\home\admin.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\home\admin.dashboard.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\login\login.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\login\login.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\login\login.routing.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\movieslist\movie.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\movieslist\movie.model.ts" />
+    <TypeScriptCompile Include="src\admin\components\movieslist\movies.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\movieslist\movies.service.ts" />
+    <TypeScriptCompile Include="src\admin\components\movieslist\movieslist.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\slides\slideDetails.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\slides\slides.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\slides\slides.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\slides\slides.routing.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\slides\slides.service.ts" />
+    <TypeScriptCompile Include="src\admin\components\tiles\tiles.component.ts" />
+    <TypeScriptCompile Include="src\admin\components\tiles\tiles.model.ts" />
+    <TypeScriptCompile Include="src\admin\components\tiles\tiles.module.ts" />
+    <TypeScriptCompile Include="src\admin\components\tiles\tiles.service.ts" />
+    <TypeScriptCompile Include="src\admin\components\tiles\updateTiles.component.ts" />
+    <TypeScriptCompile Include="src\app\bootstrap\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\bootstrap\app.component.ts" />
+    <TypeScriptCompile Include="src\app\bootstrap\app.module.ts" />
+    <TypeScriptCompile Include="src\app\components\about\about.component.ts" />
+    <TypeScriptCompile Include="src\app\components\about\about.module.ts" />
+    <TypeScriptCompile Include="src\app\components\about\about.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\components\about\about.service.ts" />
+    <TypeScriptCompile Include="src\app\components\boxoffice\boxoffice.component.ts" />
+    <TypeScriptCompile Include="src\app\components\boxoffice\boxoffice.model.ts" />
+    <TypeScriptCompile Include="src\app\components\boxoffice\boxoffice.module.ts" />
+    <TypeScriptCompile Include="src\app\components\boxoffice\boxoffice.service.ts" />
+    <TypeScriptCompile Include="src\app\components\boxoffice\boxoffice.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\components\celebrities\celebrities.module.ts" />
+    <TypeScriptCompile Include="src\app\components\celebrities\celebrities.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\components\celebrities\celebrities.service.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\firstlookposters\firstlookposters.component.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\firstlookposters\firstlookposters.model.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\movie.model.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\movies.module.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\movies.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\movies.service.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\moviesDashboard.component.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\movietrailers\movietrailers.component.ts" />
+    <TypeScriptCompile Include="src\app\components\musics\musics.module.ts" />
+    <TypeScriptCompile Include="src\app\components\musics\musics.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\components\musics\musics.service.ts" />
+    <TypeScriptCompile Include="src\app\components\songs\songs.component.ts" />
+    <TypeScriptCompile Include="src\app\components\carousel\carousel.component.ts" />
+    <TypeScriptCompile Include="src\app\components\carousel\carousel.render.ts" />
+    <TypeScriptCompile Include="src\app\components\celebrities\celebrities.component.ts" />
+    <TypeScriptCompile Include="src\app\components\datatabledemo\data-table-demo3-data.ts" />
+    <TypeScriptCompile Include="src\app\components\datatabledemo\data-table-demo3.ts" />
+    <TypeScriptCompile Include="src\app\components\home\home.component.ts" />
+    <TypeScriptCompile Include="src\app\components\home\home.service.ts" />
+    <TypeScriptCompile Include="src\app\components\home\slide.module.ts" />
+    <TypeScriptCompile Include="src\app\components\landing\landing.component.ts" />
+    <TypeScriptCompile Include="src\app\components\movies\movies.component.ts" />
+    <TypeScriptCompile Include="src\app\components\musics\musics.component.ts" />
+    <TypeScriptCompile Include="src\app\components\tiles\tiles.component.ts" />
+    <TypeScriptCompile Include="src\app\locale\lang-en.ts" />
+    <TypeScriptCompile Include="src\app\locale\lang-es.ts" />
+    <TypeScriptCompile Include="src\app\locale\lang-zh.ts" />
+    <TypeScriptCompile Include="src\app\pipes\exponentialStrength.pipe.ts" />
+    <TypeScriptCompile Include="src\app\pipes\filter.pipe.ts" />
+    <TypeScriptCompile Include="src\app\pipes\reverseString.pipe.ts" />
+    <TypeScriptCompile Include="src\app\translate\translate.config.ts" />
+    <TypeScriptCompile Include="src\app\translate\translate.module.ts" />
+    <TypeScriptCompile Include="src\app\translate\translate.pipe.ts" />
+    <TypeScriptCompile Include="src\app\translate\translate.service.ts" />
+    <TypeScriptCompile Include="src\common\components\navigation\navigation.component.ts" />
+    <TypeScriptCompile Include="src\common\components\navigation\navigation.service.ts" />
+    <TypeScriptCompile Include="src\app\components\slide\slide.component.ts" />
+    <TypeScriptCompile Include="src\app\components\songs\songs.module.ts" />
+    <TypeScriptCompile Include="src\app\components\songs\songs.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\components\songs\songs.service.ts" />
+    <TypeScriptCompile Include="src\app\components\starpower\starpower.component.ts" />
+    <TypeScriptCompile Include="src\app\components\starpower\starpower.module.ts" />
+    <TypeScriptCompile Include="src\app\components\starpower\starpower.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\components\starpower\starpower.service.ts" />
+    <TypeScriptCompile Include="src\app\components\topmovies\topMovies.component.ts" />
+    <TypeScriptCompile Include="src\app\components\topmovies\topMovies.service.ts" />
+    <TypeScriptCompile Include="src\app\bootstrap\app.routing.module.ts" />
+    <TypeScriptCompile Include="src\app\bootstrap\selective-preloading-strategy.ts" />
+    <TypeScriptCompile Include="src\app\system\appSettings.setting.ts" />
+    <TypeScriptCompile Include="src\common\animations.ts" />
+    <TypeScriptCompile Include="src\common\components\slick\slick.component.ts" />
+    <TypeScriptCompile Include="src\common\components\slick\slick.module.ts" />
+    <TypeScriptCompile Include="src\common\components\viewType\viewType.component.ts" />
+    <TypeScriptCompile Include="src\common\pipe\Keyobject.pipe.ts" />
+    <TypeScriptCompile Include="src\common\shared.module.ts" />
+    <TypeScriptCompile Include="src\common\components\pageNavMenu\pageNavMenu.component.ts" />
+    <TypeScriptCompile Include="src\common\components\pagenotfound\pagenotfound.component.ts" />
+    <TypeScriptCompile Include="src\common\shared\models\menu.model.ts" />
+    <TypeScriptCompile Include="src\common\shared\services\seo.service.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8867</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:8867/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,52 @@
+﻿[
+    {
+        "ImageUrl": "http://stat2.bollywoodhungama.in/wp-content/uploads/2016/04/sachin-23432-306x393.jpg",
+        "Movie": "Sachin – A Billion Dreams",
+        "GrossIncome": "Total Gross Income (INR): 32.25 Cr.",
+        "FirstWeekIncome": "",
+        "SecondWeekIncome": "",
+        "ThirdWeekIncome": "",
+        "CreatedDate": "",
+        "Sequence": 1
+    },
+    {
+        "ImageUrl": "http://stat3.bollywoodhungama.in/wp-content/uploads/2016/03/Half-Girlfriend1-2-306x393.jpg",
+        "Movie": "Half Girlfriend",
+        "GrossIncome": "Total Gross Income (INR): 55.31 Cr.",
+        "FirstWeekIncome": "",
+        "SecondWeekIncome": "",
+        "ThirdWeekIncome": "",
+        "CreatedDate": "",
+        "Sequence": 2
+    },
+    {
+        "ImageUrl": "http://stat3.bollywoodhungama.in/wp-content/uploads/2017/04/Hoor-Hindi-Medium-306x393.jpg",
+        "Movie": "Hindi Medium",
+        "GrossIncome": "Total Gross Income (INR): 39.55 Cr.",
+        "FirstWeekIncome": "",
+        "SecondWeekIncome": "",
+        "ThirdWeekIncome": "",
+        "CreatedDate": "",
+        "Sequence": 3
+    },
+    {
+        "ImageUrl": "http://stat2.bollywoodhungama.in/wp-content/uploads/2016/03/Meri-Pyaari-Bindu-Review-1-306x393.jpg",
+        "Movie": "Meri Pyaari Bindu",
+        "GrossIncome": "Total Gross Income (INR):9.55 Cr.",
+        "FirstWeekIncome": "",
+        "SecondWeekIncome": "",
+        "ThirdWeekIncome": "",
+        "CreatedDate": "",
+        "Sequence": 4
+    },
+    {
+        "ImageUrl": "http://stat3.bollywoodhungama.in/wp-content/uploads/2017/03/Bahubali-2-The-Conclusion-306x393.jpg",
+        "Movie": "Baahubali 2 – The Conclusion",
+        "GrossIncome": "Total Gross Income (INR):489.40 Cr.",
+        "FirstWeekIncome": "",
+        "SecondWeekIncome": "",
+        "ThirdWeekIncome": "",
+        "CreatedDate": "",
+        "Sequence": 5
+    }
+]

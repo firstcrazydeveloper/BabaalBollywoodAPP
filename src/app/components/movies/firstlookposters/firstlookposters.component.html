@@ -1,0 +1,9 @@
+﻿<!--<button (click)="addSlide()">Add</button>
+<button (click)="removeSlide()">Remove</button>
+<button (click)="slickModal.slickGoTo(2)">slickGoto 2</button>
+<button (click)="slickModal.unslick()">unslick</button>-->
+<ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig" (afterChange)="afterChange($event)">
+    <div ngxSlickItem *ngFor="let flp of flpListCollection" class="slide" style="height:400px;" (click)="displyfirstlook(flp)">
+        <img src="{{ flp.Image }}" alt="" width="100%">
+    </div>
+</ngx-slick>

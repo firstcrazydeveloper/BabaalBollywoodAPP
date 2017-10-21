@@ -1,0 +1,152 @@
+﻿
+<div *ngIf="tilesDetails">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="well form-horizontal" id="contact_form">
+                <div>
+                    <span>Tiles Details >> {{tilesDetails.Title}}</span>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Title</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Title" [(ngModel)]="tilesDetails.Title" placeholder="Title" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Row</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Row" placeholder="Row" [(ngModel)]="tilesDetails.Row" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Col</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Col" placeholder="Col" [(ngModel)]="tilesDetails.Col" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">I Tag Css</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="ICss" placeholder="I Tag Css" [(ngModel)]="tilesDetails.ICss" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">CSS Class</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Css" placeholder="CSS Class" [(ngModel)]="tilesDetails.Css" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+                
+
+                <!-- Select Basic -->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Sequence</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Sequence" placeholder="Sequence" class="form-control" [(ngModel)]="tilesDetails.Sequence" type="text">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+
+               
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Type</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <input name="Type" placeholder="Type" [(ngModel)]="tilesDetails.Type" class="form-control" type="text">
+                        </div>
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label">Is Active</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"></span>
+                            <input name="IsActive" placeholder="Is Active" [(ngModel)]="tilesDetails.IsActive" class="form-control" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- radio checks -->
+                <!-- Text area -->
+
+                <div class="form-group">
+                    <label class="col-md-4 control-label">URL</label>
+                    <div class="col-md-4 inputGroupContainer">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-edit"></i></span>
+                            <textarea class="form-control" [(ngModel)]="tilesDetails.Url" name="Url" placeholder="Url"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label"></label>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-warning" (click)="AddUpdateTiles()">{{mainButtonTitle}} <span class="glyphicon glyphicon-upload"></span></button>
+                    </div>
+
+
+                </div>
+                <!-- Success message -->
+                <div *ngIf="transactionSucces" class="alert alert-success" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Box Office collection added/ updated successfully.</div>
+                <div *ngIf="transactionFailed" class="alert alert-danger" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-down"></i> Box Office collection not added/ updated successfully.</div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-warning" (click)="clearData()" *ngIf="mainButtonTitle == 'Update'">{{addNewButton}} <span class="glyphicon glyphicon-plus-sign"></span></button>
+                <button type="submit" class="btn btn-warning" (click)="clearData()">{{clearButton}} <span class="glyphicon glyphicon-refresh"></span></button>
+                <button type="submit" class="btn btn-warning" (click)="Cancel()">{{cancelButton}} <span class="glyphicon glyphicon-repeat"></span></button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+

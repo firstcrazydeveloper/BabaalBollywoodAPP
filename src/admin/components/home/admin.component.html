@@ -1,0 +1,13 @@
+﻿<h3>Admin Section</h3>
+<ul class="nav nav-tabs">
+    <li class="active">
+        <a routerLink="/admin" routerLinkActive="active"
+           [routerLinkActiveOptions]="{ exact: true }">Dashboard</a>
+    </li>
+    <li><a routerLink="/admin/slides" routerLinkActive="active">Slides</a></li>
+    <li><a routerLink="/admin/boxofficecollection" routerLinkActive="active">Box Office</a></li>
+    <li><a routerLink="/admin/tiles" routerLinkActive="active">Tiles</a></li>
+    <li><a routerLink="/admin/movies" routerLinkActive="active">Movies</a></li>
+    <li><a routerLink="/admin/firstlookposterlist" routerLinkActive="active">First Look Poster</a></li>
+</ul>
+<router-outlet></router-outlet>

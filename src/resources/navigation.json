@@ -1,0 +1,27 @@
+﻿[
+    {
+        "Class": "menu-item current-menu-item",
+        "Title": "Home",
+        "Url": "home"
+    },
+    {
+        "Url": "review",
+        "Class": "menu-item",
+        "Title": "Movie Reviews"
+    },
+    {
+        "Url": "join",
+        "Class": "menu-item",
+        "Title": "Join US"
+    },
+    {
+        "Url": "contact",
+        "Class": "menu-item",
+        "Title": "Contact"
+    },
+    {
+        "Url": "trends",
+        "Class": "menu-item",
+        "Title": "Top Trends"
+    }
+]

@@ -1,0 +1,10 @@
+﻿<div class="row" *ngFor="let key of keys();" style="margin-top:25px!important">
+    <div class="col-md-4" *ngFor="let tileKey of rowKeys(tileDetails[key]);">
+        <h2 class="section-title"> {{tileDetails[key][tileKey].Title}}</h2>
+        <div class="sarrowlist">
+            <ul *ngFor="let tileDetail of tileDetails[key][tileKey].TileDetailsCollection;">
+                <li><a href="{{tileDetail.Url}}" target="_blank"><i class="glyphicon glyphicon-thumbs-up"></i>{{tileDetail.Title}}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

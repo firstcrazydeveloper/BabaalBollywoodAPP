@@ -1,0 +1,51 @@
+﻿<p>The hero's birthday is {{ birthday | date:format | uppercase}}</p>
+<button (click)="toggleFormat()">Toggle Format</button>
+<br />
+
+<h2>Power Booster</h2>
+<p>Super power boost: {{2 | exponentialStrength: 10}}</p>
+<p>Super power boost: {{name | reverseString}}</p>
+<br />
+<div class="container">
+    <h4>Translate: Hello World</h4>
+    <div class="btn-group">
+        <button *ngFor="let lang of supportedLanguages"
+                (click)="selectLang(lang.value)"
+                class="btn btn-default" [class.btn-primary]="isCurrentLang(lang.value)">
+            {{ lang.display }}
+        </button>
+    </div>
+    <div style="margin-top: 20px">
+        <p>
+            Translate With Pipe: <strong>{{ 'helloworld' | translate }}</strong>
+        </p>
+        <p>
+            Translate with Service: <strong>{{ translatedText }}</strong>
+        </p>
+    </div>
+</div>
+<br /><br />
+
+<h2>{{title}}</h2>
+<p>
+    New hero:
+    <input type="text" [(ngModel)]="cname" placeholder="hero name">
+    <input id="can-fly" type="checkbox" [(ngModel)]="canFly"> can fly
+</p>
+<p>
+    <input id="mutate" type="checkbox" [(ngModel)]="mutate">Mutate array
+    <button (click)="reset()">Reset</button>
+    <button (click)="addHero()">Add Hero</button>
+</p>
+<h4>Heroes who fly (piped)</h4>
+<div id="flyers">
+    <div *ngFor="let hero of (heroes | filter)">
+        {{hero.name}}
+    </div>
+</div>
+<h4>All Heroes (no pipe)</h4>
+<div id="all">
+    <div *ngFor="let hero of heroes">
+        {{hero.name}}
+    </div>
+</div>

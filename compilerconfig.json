@@ -1,0 +1,46 @@
+﻿[
+  {
+    "outputFile": "src/admin/components/slides/slide.component.css",
+    "inputFile": "src/admin/components/slides/slide.component.less"
+  },
+  {
+    "outputFile": "src/app/components/navigation/navigation.component.css",
+    "inputFile": "src/app/components/navigation/navigation.component.less"
+  },
+  {
+    "outputFile": "src/app/components/movies/movies.component.css",
+    "inputFile": "src/app/components/movies/movies.component.less"
+  },
+  {
+    "outputFile": "src/app/components/about/about.component.css",
+    "inputFile": "src/app/components/about/about.component.less"
+  },
+  {
+    "outputFile": "src/app/components/boxoffice/boxoffice.component.css",
+    "inputFile": "src/app/components/boxoffice/boxoffice.component.less"
+  },
+  {
+    "outputFile": "src/common/components/pageNavMenu/pageNavMenu.component.css",
+    "inputFile": "src/common/components/pageNavMenu/pageNavMenu.component.less"
+  },
+  {
+    "outputFile": "src/common/components/displayType/displayType.component.css",
+    "inputFile": "src/common/components/displayType/displayType.component.less"
+  },
+  {
+    "outputFile": "src/admin/components/manageboxoffice/manageboxoffice.component.css",
+    "inputFile": "src/admin/components/manageboxoffice/manageboxoffice.component.less"
+  },
+  {
+    "outputFile": "src/app/components/tiles/tiles.component.css",
+    "inputFile": "src/app/components/tiles/tiles.component.less"
+  },
+  {
+    "outputFile": "src/app/components/movies/firstlookposters/firstlookposters.component.css",
+    "inputFile": "src/app/components/movies/firstlookposters/firstlookposters.component.less"
+  },
+  {
+    "outputFile": "src/app/components/topmovies/topMovies.component.css",
+    "inputFile": "src/app/components/topmovies/topMovies.component.less"
+  }
+]

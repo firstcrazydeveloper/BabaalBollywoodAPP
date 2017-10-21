@@ -1,0 +1,42 @@
+﻿<div class="row homemovies">
+    <div class="col-md-12">
+        <div class="header"><h2>UPCOMING MOVIES</h2></div>
+        <div class="viewall"><a href="/movies/Releases">View All</a></div>
+    </div>
+</div>
+<div class="row ">
+    <div class="col-sm-6 col-md-3" *ngFor="let topmovie of topmovies;">
+        <div class="latest-movie">
+            <a href="#"><img src="{{topmovie.Image}}" alt="{{topmovie.Caption}}"></a>
+        </div>
+    </div>
+</div>
+
+<div class="row homemovies">
+    <div class="col-md-12">
+        <div class="header"><h2>IN THEATRES</h2></div>
+        <div class="viewall"><a href="/boxoffice">View All</a></div>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-md-3" *ngFor="let topmovie of topmovies;">
+        <div class="latest-movie">
+            <a href="#"><img src="{{topmovie.Image}}" alt="{{topmovie.Caption}}"></a>
+        </div>
+    </div>
+</div>
+
+<div class="row homemovies">
+    <div class="col-md-12">
+        <div class="header"><h2>WATCH TRAILERS</h2></div>
+        <div class="viewall"><a href="/movies/Trailers">View All</a></div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-md-3" *ngFor="let topmovie of topmovies;">
+        <div class="latest-movie">
+            <a href="#"><img src="{{topmovie.Image}}" alt="{{topmovie.Caption}}"></a>
+        </div>
+    </div>
+</div>
